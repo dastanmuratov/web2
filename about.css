@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
+
+
+
+form{
+    position: relative;
+
+    width: 500px;
+}
+input{
+    width: 100%;
+    max-width: 100%;
+    height: 45px;
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: none;
+
+}
+button{
+    width: 100px;
+    max-width: 100%;
+
+    background: #964b00;
+    color: gray;
+    border-radius: 100px;
+    border: none;
+    position: relative;
+    left: 200;
+    bottom: 2px;
+    top: 2px;
+    font-weight: 600;
+    outline: none;
+}
+button:hover{
+    transform: scale(0.95);
+}
+li{
+    list-style: none;
+}
+
+.result{
+    color: black;
+    text-align: center;
+
+
+    margin-top: 5px;
+
+
+
+}
+
+.song-list{
+    list-style: none;
+
+    flex-direction: column;
+    position: absolute;
+    left: 65%;
+    top: 250;
+    transform: translate(-50% ,0);
+    background: white;
+    rgb(4, 40, 40),
+    rgb(40, 40, 40))
+
+}
+.song-list li{
+    margin-bottom: px;
+    width: 250px;
+    justify-content: space-evenly;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: overline;
+
+    position: relative;
+
+}
+
+.song-list li::after{
+    content: "";
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    height: 2px;
+    background: white;
+    display: inline-block;
+}
+.song-list li div{
+    float: left;
+}
+
+.song-list li span{
+    float: right;
+    background-color: #964b00;
+    border: 0;
+    font-size: 12px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 300;
+    padding: 4px 10px;
+    text-transform: capitalize;
+}
+
